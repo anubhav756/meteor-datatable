@@ -1,20 +1,13 @@
 <head>
- 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
   <link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-   <script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
-  
 </head>
-
 <body>
-  <p>heefasds</p>
   <table id="tableId"></table>
   <script>
     $(document).ready(function () {
-      $("p").click(function () {
-        $(this).hide();
-      });
-      console.log($('#tableId').DataTable());
+      $('#tableId').DataTable();
     });
   </script>
 </body>
